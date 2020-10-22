@@ -1,5 +1,5 @@
 # BrawlBlur
-Very simple python script to blur brawlhalla backgrounds using opencv2, tkinter, numpy.
+Very simple python script to blur brawlhalla backgrounds using opencv2, tkinter.
 
 # How to run?
 Install the `opencv-python` module if you don't have it, then start the program.
