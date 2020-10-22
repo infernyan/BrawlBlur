@@ -14,7 +14,6 @@ for filename in os.listdir(path):
         print("Blurring: "+os.path.join(path, filename))
         image = cv2.imread(os.path.join(path, filename))
         image = cv2.GaussianBlur(image, (115, 115), 18)
-        image = np.uint8(np.double(image) - 10)
         if cv2.imwrite(os.path.join(path, filename), image):
             continue
         else:
