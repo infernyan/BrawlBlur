@@ -4,7 +4,6 @@ root.withdraw()
 import os
 from tkinter.filedialog import askdirectory
 import cv2 
-import numpy as np 
 
 path = askdirectory(title='Select Brawlhalla Folder')
 path = os.path.join(path, "mapArt/Backgrounds/")
